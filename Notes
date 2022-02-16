@@ -11,7 +11,15 @@ ls
 touch file.txt (create a file)
 cat file.txt (display whatever is there in file.txt)
 
+.gitignore
+it will ignore all the file that are added into this lets say i added file.txt int it
+and make changes in file.txt
+vim file.txt
+before that i will run a command to remove cached data from git bash
+git rm -r --cached
+now if i check git status it will not show modified
 
+git status
 want to write something in file.txt
 vm file.txt
 i to start writing
